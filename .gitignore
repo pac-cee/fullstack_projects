@@ -1,0 +1,28 @@
+# Ignore everything in the root folder
+/*
+
+# But NOT these exceptions:
+!.gitignore
+!php/
+!rust/
+
+# Ignore vendor, cache, log, and environment files in all subfolders
+**/vendor/
+**/node_modules/
+**/.env
+**/.env.*
+**/composer.lock
+**/package-lock.json
+**/yarn.lock
+**/cache/
+**/logs/
+**/*.log
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore editor/project files
+.vscode/
+.idea/
+*.code-workspace
