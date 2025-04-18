@@ -1,0 +1,7 @@
+# Requirements for Python Projects 090-100
+qrcode
+pyzbar
+Pillow
+python-barcode
+requests
+pyttsx3
